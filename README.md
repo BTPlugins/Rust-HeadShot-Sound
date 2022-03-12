@@ -9,4 +9,4 @@ https://github.com/blazethrower320/Rust-HeadShot-Sound/releases/tag/Release
 https://www.youtube.com/watch?v=aNnaE44275k
 
 # Workshop Mod
-https://steamcommunity.com/sharedfiles/filedetails/?id=2211396196
+https://steamcommunity.com/sharedfiles/filedetails/?id=2776880138
