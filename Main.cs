@@ -11,10 +11,12 @@ using System;
 
 namespace RustHeadshot
 {
-    public class Main : RocketPlugin
+    public class Main : RocketPlugin<RustHeadShotConfiguration>
     {
+        public static Main Instance;
         protected override void Load()
         {
+            Instance = this;
             DamageTool.damagePlayerRequested += DamageTool_damagePlayerRequested;
             Logger.Log("#############################################");
             Logger.Log("###             RustHeadShot              ###");
@@ -26,11 +28,20 @@ namespace RustHeadshot
 
         private void DamageTool_damagePlayerRequested(ref DamagePlayerParameters parameters, ref bool shouldAllow)
         {
-            UnturnedPlayer user = UnturnedPlayer.FromCSteamID(parameters.killer);
+            var user = PlayerTool.getPlayer(parameters.killer);
+            Player target = parameters.player;
             if (parameters.limb == ELimb.SKULL && user != null)
             {
-                EffectManager.sendUIEffect(53991, 539, user.Player.channel.owner.transportConnection, true);
+                if(Main.Instance.Configuration.Instance.KillerHearSound == true)
+                {
+                    EffectManager.sendUIEffect(53991, 539, user.channel.owner.transportConnection, true);
+                }
+                if(Main.Instance.Configuration.Instance.TargetHearSound == true)
+                {
+                    EffectManager.sendUIEffect(53991, 539, target.channel.owner.transportConnection, true);
+                }
             }
+            
         }
         protected override void Unload()
         {

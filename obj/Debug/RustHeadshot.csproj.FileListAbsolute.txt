@@ -1,0 +1,15 @@
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\RustHeadshot.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\RustHeadshot.pdb
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\Assembly-CSharp.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\com.rlabrecque.steamworks.net.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\Rocket.API.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\Rocket.Core.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\Rocket.Unturned.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\SDG.NetTransport.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\UnityEngine.CoreModule.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\bin\Debug\UnityEngine.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\obj\Debug\RustHeadshot.csproj.AssemblyReference.cache
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\obj\Debug\RustHeadshot.csproj.CoreCompileInputs.cache
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\obj\Debug\RustHeadshot.csproj.CopyComplete
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\obj\Debug\RustHeadshot.dll
+C:\Users\blaze\source\repos\RustHeadshot\RustHeadshot\obj\Debug\RustHeadshot.pdb
